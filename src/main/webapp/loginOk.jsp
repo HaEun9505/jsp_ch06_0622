@@ -27,6 +27,8 @@
 		}
 	%>
 	<br>
-	<a href="sessionCheck.jsp">세션값 확인 페이지로 이동</a>
+	<a href="sessionCheck.jsp">세션값 확인 페이지로 이동</a><br>
+	<a href="sessionCheckAll.jsp">모든 세션 정보 확인하기로 이동</a>
+	
 </body>
 </html>

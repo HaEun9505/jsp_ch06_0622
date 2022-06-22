@@ -10,7 +10,7 @@
 	<h2>session 정보 확인</h2>
 	<hr>
 	<%
-		//자식클래스로 만든 mid는 부모클래스로 만든 객체를 받을 수 없으므로 형 변환 
+		//자식클래스로 만든 mid는 부모클래스로 만든 객체를 받을 수 없으므로 형 변환(업캐스팅)
 		String mid = (String)session.getAttribute("memberId");
 		if(mid == null){	//mid가 null값이면(로그인 x)
 			out.println("로그인<br>");
